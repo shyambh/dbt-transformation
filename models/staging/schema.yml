@@ -1,0 +1,14 @@
+version : 2
+sources:
+  - name: staging
+    database: data-eng-practice007
+    schema: ny_taxi_data
+    tables:
+      - name : green-2019-11
+      - name : yellow-2021-01
+  
+  - name: production
+    database: data-eng-practice007
+    schema: green_taxi_tripdata_2019_12
+    tables:
+      - name : taxi_data
